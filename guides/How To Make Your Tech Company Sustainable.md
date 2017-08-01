@@ -20,7 +20,7 @@ All companies who are serious about their carbon footprint have some form of pub
 
 A sustainability statement can actually be very simple. Take a look at Salesforce’s sustainability statement, first [published](https://www.salesforce.com/assets/pdf/misc/Sustainability_Commitment.pdf) in March of 2013:
 
-![image alt text](image_0.png)
+![image alt text](images/salesforce_commitment.png)
 
 The statement is short, general and aspirational, which is what makes it easier to get agreement on and to publish — there’s simply not much detail for stakeholders within the company to object to.
 
