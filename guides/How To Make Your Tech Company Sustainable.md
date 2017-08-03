@@ -132,6 +132,6 @@ Finding others with similar climate concerns is often just a matter of bringing 
 
 What you are doing here is so important, and we hope you feel charged and ready to embark on your mission. We’ve said it before during this guide, and we will say it again — it can be done, and you are not the only one who wants to do it!
 
-You’ll find a ready community with us at ClimateAction.Tech, so please reach out to us and join our slack. Good luck, and we are looking forward to helping you and seeing you achieve success!
+You’ll find a ready community with us at ClimateAction.Tech, so please <a href="mailto:hello@techclimate.org?subject=Tech Sustainability Guide">contact us</a> and join our slack. Good luck, and we are looking forward to helping you and seeing you achieve success!
 
 
