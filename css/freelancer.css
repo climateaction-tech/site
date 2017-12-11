@@ -9,6 +9,7 @@ body {
 }
 p {
   font-size: 20px;
+  letter-spacing: 1px;
 }
 p.small {
   font-size: 16px;
@@ -29,6 +30,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   font-weight: 700;
+  letter-spacing: 1.3px;
 }
 h1 a, h1 a:hover, h1 a:focus, h1 a:active,
 h2 a, h2 a:hover, h2 a:focus, h2 a:active,
@@ -103,6 +105,9 @@ header .intro-text .name {
   /*text-transform: uppercase;*/
   font-weight: 700;
   font-size: 2em;
+}
+header .intro-text * {
+  letter-spacing: 0.3px;
 }
 header .intro-text .skills {
   font-size: 1.25em;
@@ -466,6 +471,9 @@ fieldset[disabled] .btn-success.active {
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+}
+.portfolio-modal .modal-content * {
+  letter-spacing: inherit;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
