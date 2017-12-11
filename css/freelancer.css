@@ -549,3 +549,10 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+.footer {
+  width: 100%;
+}
+.footer .right {
+  position: absolute;
+  right: 1.6em;
+}
