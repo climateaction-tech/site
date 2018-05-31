@@ -205,12 +205,25 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #233140;
   color: white;
 }
 section.campaigns {
-  background: #233140;
+  background: #18BC9C;
   color: white;
+}
+section#campaigns a:hover, section#campaigns a:focus{
+  color: white;
+  text-decoration: none !important;
+}
+section#campaigns a:active, section#campaigns a:visited{
+  color: white;
+  text-decoration: underline !important;
+}
+section#campaigns .btn-outline:hover,
+section#campaigns .btn-outline:focus,
+section#campaigns .btn-outline:active{
+  color: #233140;
 }
 section.buzz {
   background: #d9534f;
