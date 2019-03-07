@@ -569,3 +569,19 @@ div#maincontent {
   position: absolute;
   right: 1.6em;
 }
+.video {
+  text-align: center;
+}
+.video iframe {
+  width: 60vw;
+  height: 33.75vw;
+  border: 5px solid white;
+}
+
+@media (max-width: 1000px) {
+  .video iframe {
+    width: 90vw;
+    height: 50.625vw;
+    border: 5px solid white;
+  }
+}
