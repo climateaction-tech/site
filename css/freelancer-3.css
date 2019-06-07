@@ -125,6 +125,23 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+.text {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.text p {
+  letter-spacing: 0.03em;
+  word-spacing: 0.01em;
+  font-size: 1.375em;
+  margin: 1em 0 1.2em 0;
+}
+.text h2 {
+  font-size: 2.5em;
+  margin: 1.7em 0 0.5em 0;
+}
+.sub-section {
+  padding: 2em 0;
+}
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
