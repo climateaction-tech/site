@@ -149,6 +149,24 @@ header .intro-text .skills {
 .sub-section {
   padding: 2em 0;
 }
+.button {
+  width: 100%;
+  text-align: center;
+  margin: 3em 0;
+}
+.button a {
+  font-size: 3em;
+  transition: all 0.5s;
+  background-color: #18bc9c;
+}
+.button a:hover {
+  background-color: #2b3e50;
+}
+@media (max-width: 700px) {
+  .button a {
+    font-size: 1.5em;
+  }
+}
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
