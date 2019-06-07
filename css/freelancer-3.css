@@ -129,7 +129,7 @@ header .intro-text .skills {
   max-width: 650px;
   margin: 0 auto;
 }
-.text p {
+.text p, .text ul, .text ol {
   letter-spacing: 0.03em;
   word-spacing: 0.01em;
   font-size: 1.375em;
@@ -138,6 +138,13 @@ header .intro-text .skills {
 .text h2 {
   font-size: 2.5em;
   margin: 1.7em 0 0.5em 0;
+}
+.text ul, .text ol {
+  padding-left: 0;
+  margin-left: 1.2em;
+}
+.text li {
+  margin-bottom: 0.5em;
 }
 .sub-section {
   padding: 2em 0;
