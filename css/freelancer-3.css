@@ -167,6 +167,17 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+#guide-table {
+  text-align: center;
+}
+#guide-table iframe {
+  background: transparent;
+  border: 1px solid #ccc;
+  width: calc(100% - 6rem);
+  margin: 0 auto;
+  min-height: 200px;
+  height: 80vh;
+}
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
