@@ -125,6 +125,59 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+.text {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.text p, .text ul, .text ol {
+  letter-spacing: 0.03em;
+  word-spacing: 0.01em;
+  font-size: 1.375em;
+  margin: 1em 0 1.2em 0;
+}
+.text h2 {
+  font-size: 2.5em;
+  margin: 1.7em 0 0.5em 0;
+}
+.text ul, .text ol {
+  padding-left: 0;
+  margin-left: 1.2em;
+}
+.text li {
+  margin-bottom: 0.5em;
+}
+.sub-section {
+  padding: 2em 0;
+}
+.button {
+  width: 100%;
+  text-align: center;
+  margin: 3em 0;
+}
+.button a {
+  font-size: 3em;
+  transition: all 0.5s;
+  background-color: #18bc9c;
+}
+.button a:hover {
+  background-color: #2b3e50;
+}
+@media (max-width: 700px) {
+  .button a {
+    font-size: 1.5em;
+  }
+}
+#guide-table {
+  text-align: center;
+}
+#guide-table iframe {
+  background: transparent;
+  border: 1px solid #ccc;
+  width: calc(100% - 6rem);
+  margin: 0 auto;
+  min-height: 200px;
+  height: 80vh;
+}
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
