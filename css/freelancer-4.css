@@ -7,7 +7,7 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
-p {
+p, section ul, section ol {
   font-size: 20px;
   letter-spacing: 1px;
 }
