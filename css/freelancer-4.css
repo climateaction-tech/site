@@ -79,6 +79,9 @@ hr.star-light.buzz:after {
 hr.star-primary {
   border-color: #2C3E50;
 }
+hr.star-primary.white {
+  border-color: white !important;
+}
 hr.star-primary:after {
   background-color: white;
   color: #2C3E50;
