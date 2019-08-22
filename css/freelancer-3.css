@@ -167,6 +167,17 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+.overview img {
+  width: 100%;
+}
+.overview-link {
+  text-align: center;
+  margin-top: 1em;
+}
+.overview-link a {
+  color: white;
+  font-size: 1.4em;
+}
 #guide-table {
   text-align: center;
 }
