@@ -86,7 +86,7 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
-header {
+header, .join, .join a {
   text-align: center;
   background: #18BC9C;
   color: white;
@@ -267,6 +267,12 @@ section {
 section h2 {
   margin: 0;
   font-size: 3em;
+}
+section a {
+  text-decoration: underline !important;
+}
+section a:active, section a:visited, section a:hover, section a:focus{
+  text-decoration: none !important;
 }
 section.success {
   background: #233140;
