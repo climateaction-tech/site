@@ -281,6 +281,9 @@ section.blue {
   background: #233140;
   color: white;
 }
+section.blue a {
+  color: white;
+}
 section.campaigns {
   background: #18BC9C;
   color: white;
