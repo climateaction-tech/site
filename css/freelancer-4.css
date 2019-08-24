@@ -277,7 +277,7 @@ section a {
 section a:active, section a:visited, section a:hover, section a:focus{
   text-decoration: none !important;
 }
-section.success {
+section.blue {
   background: #233140;
   color: white;
 }
