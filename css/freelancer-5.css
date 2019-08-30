@@ -101,10 +101,6 @@ header .container {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-header.pledge .container {
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
 header img {
   display: block;
   margin: 0 auto 20px;
@@ -135,10 +131,6 @@ header .intro-text h1 a {
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
-  }
-  header.pledge .container {
-    padding-top: 40px;
-    padding-bottom: 30px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -285,9 +277,6 @@ header .intro-text h1 a {
 }
 section {
   padding: 100px 0;
-}
-section.pledge {
-  padding: 0;
 }
 section h2 {
   margin: 0;
