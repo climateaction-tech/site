@@ -8,9 +8,15 @@
 <body id="page-top" class="index">
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
-    {% include navigation.html %}
+    {% unless page.navigation == false %}
+        {% include navigation.html %}
+    {% endunless %}
+
     {{ content }}
-    {% include footer.html %}
+
+    {% unless page.footer == false %}
+        {% include footer.html %}
+    {% endunless %}
 
     <script src="/vendor/jquery/jquery.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
