@@ -14,6 +14,9 @@ p, section ul, section ol {
 p.small {
   font-size: 16px;
 }
+.center {
+  text-align: center;
+}
 a,
 a:hover,
 a:focus,
@@ -119,6 +122,9 @@ header .intro-text * {
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
+}
+header .intro-text h1 a {
+  text-decoration: none;
 }
 @media (min-width: 500px) {
   header .intro-text .name {
