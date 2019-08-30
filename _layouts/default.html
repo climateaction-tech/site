@@ -9,28 +9,8 @@
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
     {% include navigation.html %}
-
     {{ content }}
-
-    <footer>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 footer">
-                        Follow us on <a href='https://twitter.com/climateActTech'>Twitter</a>
-                        <span class="right">Theme adapted from <a href="https://startbootstrap.com/template-overviews/freelancer/">startbootstrap</a></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+    {% include footer.html %}
 
     <script src="/vendor/jquery/jquery.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
