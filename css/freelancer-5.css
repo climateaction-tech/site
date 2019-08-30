@@ -98,6 +98,10 @@ header .container {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+header.pledge .container {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
 header img {
   display: block;
   margin: 0 auto 20px;
@@ -116,10 +120,19 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+@media (min-width: 500px) {
+  header .intro-text .name {
+    font-size: 3.25em;
+  }
+}
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
+  }
+  header.pledge .container {
+    padding-top: 40px;
+    padding-bottom: 30px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -267,6 +280,9 @@ header .intro-text .skills {
 section {
   padding: 100px 0;
 }
+section.pledge {
+  padding: 0;
+}
 section h2 {
   margin: 0;
   font-size: 3em;
@@ -276,6 +292,13 @@ section a {
 }
 section a:active, section a:visited, section a:hover, section a:focus{
   text-decoration: none !important;
+}
+section.green, .green {
+  background: #18BC9C;
+  color: white;
+}
+section.green a {
+  color: white;
 }
 section.blue {
   background: #233140;
