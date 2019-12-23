@@ -1,0 +1,22 @@
+{
+  "name": "cat-site",
+  "version": "1.0.0",
+  "description": "ClimateAction.Tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/climateaction-tech/site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/climateaction-tech/site/issues"
+  },
+  "homepage": "https://github.com/climateaction-tech/site#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
