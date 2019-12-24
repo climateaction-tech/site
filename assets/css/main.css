@@ -1,0 +1,7 @@
+#maincontent .intro-text .buttons {
+    padding: 1em;
+}
+
+#maincontent .intro-text .buttons .btn {
+    margin-bottom: 5px;
+}

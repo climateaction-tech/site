@@ -17,14 +17,14 @@
                 <li class="hidden">
                     <a href="{{ link-prefix }}#page-top"></a>
                 </li>
-                <li class="page-scroll">
+                <li class="page-scroll {% if page.url == '/' %}active{% endif %}">
                     <a href="{{ link-prefix }}#about">About Us</a>
                 </li>
-                <li class="page-scroll">
-                    <a href="{{ link-prefix }}#overview">Overview</a>
+                <li class="page-scroll {% if page.url == '/handbook/' %}active{% endif %}">
+                    <a href="/handbook">Handbook</a>
                 </li>
-                <li class="page-scroll">
-                    <a href="/guide">Guide</a>
+                <li class="page-scroll {% if page.url == '/resources/' %}active{% endif %}">
+                    <a href="/resources">Resources</a>
                 </li>
                 <li class="page-scroll">
                     <a href="{{ link-prefix }}#join">Join Us</a>
