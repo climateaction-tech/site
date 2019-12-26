@@ -5,3 +5,16 @@
 #maincontent .intro-text .buttons .btn {
     margin-bottom: 5px;
 }
+
+#the-team .person img {
+    width: 200px;
+    margin-bottom: 2rem;
+}
+
+#the-team .person a:hover {
+    color: #18BC9C;
+}
+
+#the-team .person {
+    margin-bottom: 4rem;
+}
