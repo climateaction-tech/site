@@ -1,5 +1,48 @@
 ---
 layout: default
+leaders:
+  - name: Asim Hussain
+    image: /assets/img/team/asim.jpg
+    location: London, UK
+    twitter: https://twitter.com/jawache
+    email: asim@climateaction.tech
+    linkedin: https://www.linkedin.com/in/jawache/
+    bio: Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.
+  - name: Asim Hussain
+    image: /assets/img/team/asim.jpg
+    location: London, UK
+    twitter: 
+    email: asim@climateaction.tech
+    linkedin: https://www.linkedin.com/in/jawache/
+    bio: Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.
+  - name: Asim Hussain
+    image: /assets/img/team/asim.jpg
+    location: London, UK
+    twitter: https://twitter.com/jawache
+    email: asim@climateaction.tech
+    linkedin: 
+    bio: Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.
+  - name: Asim Hussain
+    image: /assets/img/team/asim.jpg
+    location: London, UK
+    twitter: 
+    email: asim@climateaction.tech
+    linkedin:
+    bio: Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.
+  - name: Asim Hussain
+    image: /assets/img/team/asim.jpg
+    location: London, UK
+    twitter: https://twitter.com/jawache
+    email: asim@climateaction.tech
+    linkedin: https://www.linkedin.com/in/jawache/
+    bio: Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.
+  - name: Asim Hussain
+    image: /assets/img/team/asim.jpg
+    location: London, UK
+    twitter: https://twitter.com/jawache
+    email: asim@climateaction.tech
+    linkedin: https://www.linkedin.com/in/jawache/
+    bio: Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.
 ---
 <header>
     <div class="container" id="maincontent" tabindex="-1">
@@ -70,7 +113,6 @@ layout: default
     </div>
 </section>
 
-
 <section id="the-team" class="blue">
     <div class="container">
         <div class="row">
@@ -80,86 +122,25 @@ layout: default
             </div>
         </div>
         <div class="row">
+        {% for leader in leaders %}
             <div class="col-lg-4">
                 <div class="person text-center">
-                    <img src="https://pbs.twimg.com/profile_images/1164548061147926528/mJ_uI9Fo_400x400.jpg" alt="..." class="img-circle">
-                    <p>Asim Hussain</p>
-                    <p class="small">London, UK</p>
+                    <img src="{{ leader.image }}" alt="..." class="img-circle">
+                    <p>{{ leader.name }}</p>
+                    <p class="small">{{ leader.location }}</p>
                     <p> 
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-envelope"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>&nbsp;
+                     <a href="mailto:{{ leader.email }}" target="_blank" title="Mail"><i class="fa fa-envelope"></i></a>&nbsp;
+                     {% if leader.twitter %}<a href="{{ leader.twitter }}" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>&nbsp;{% endif %}
+                     {% if leader.linkedin %}<a href="{{ leader.linkedin }}" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>&nbsp;{% endif %}
                     </p>
-                    <p>Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.</p>
+                    <p>{{ leader.bio }}</p>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="person text-center">
-                    <img src="https://pbs.twimg.com/profile_images/1164548061147926528/mJ_uI9Fo_400x400.jpg" alt="..." class="img-circle">
-                    <p>Asim Hussain</p>
-                    <p class="small">London, UK</p>
-                    <p> 
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-envelope"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>&nbsp;
-                    </p>
-                    <p>Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="person text-center">
-                    <img src="https://pbs.twimg.com/profile_images/1164548061147926528/mJ_uI9Fo_400x400.jpg" alt="..." class="img-circle">
-                    <p>Asim Hussain</p>
-                    <p class="small">London, UK</p>
-                    <p> 
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-envelope"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>&nbsp;
-                    </p>
-                    <p>Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="person text-center">
-                    <img src="https://pbs.twimg.com/profile_images/1164548061147926528/mJ_uI9Fo_400x400.jpg" alt="..." class="img-circle">
-                    <p>Asim Hussain</p>
-                    <p> 
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-envelope"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>&nbsp;
-                    </p>
-                    <p>Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="person text-center">
-                    <img src="https://pbs.twimg.com/profile_images/1164548061147926528/mJ_uI9Fo_400x400.jpg" alt="..." class="img-circle">
-                    <p>Asim Hussain</p>
-                    <p class="small">London, UK</p>
-                    <p> 
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-envelope"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>&nbsp;
-                    </p>
-                    <p>Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.</p>
-                </div>
-            </div>     
-            <div class="col-lg-4">
-                <div class="person text-center">
-                    <img src="https://pbs.twimg.com/profile_images/1164548061147926528/mJ_uI9Fo_400x400.jpg" alt="..." class="img-circle">
-                    <p>Asim Hussain</p>
-                    <p class="small">London, UK</p>
-                    <p> 
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Twitter"><i class="fa fa-envelope"></i></a>&nbsp;
-                     <a href="" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>&nbsp;
-                    </p>
-                    <p>Asim is a developer, trainer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Cloud Advocacy Lead.</p>
-                </div>
-            </div>                                                            
+            </div>   
+        {% endfor %}                                                     
         </div>
     </div>
 </section>
+
 
 <section id="contact" class="join">
     <div id="join" class="container">
